@@ -1,0 +1,19 @@
+Tech Stack
+1.	Groq (LLM – LLaMA-4 Vision Transformer)
+Used for multimodal reasoning, enabling image understanding and question-answering over detected celebrities.
+2.	CircleCI
+Cloud-based CI/CD tool used to build automated pipelines for testing, containerization, and deployment.
+3.	OpenCV (Python)
+Handles image preprocessing tasks such as image conversion, resizing, normalization, and feature preparation before inference.
+4.	GitHub
+Serves as the Source Code Management (SCM) platform for version control and collaboration.
+5.	Flask
+Backend framework used to build REST APIs, handle requests, and integrate ML inference pipelines.
+6.	HTML / CSS
+Used to design and implement the frontend UI of the application.
+7.	Docker
+Containerizes the application to ensure consistent runtime environments across development and production.
+8.	Google Cloud Artifact Registry (GCP GAR)
+Stores and manages Docker images generated during the CI/CD pipeline.
+9.	Google Kubernetes Engine (GCP GKE)
+Deploys and runs the containerized application in a scalable Kubernetes cluster on Google Cloud.

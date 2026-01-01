@@ -1,0 +1,133 @@
+#HLD & LLD
+🔹 High-Level Design (HLD)
+1️⃣ System Overview
+The system allows users to upload an image of a celebrity and ask natural language questions.
+It uses computer vision and a multimodal LLM to detect the celebrity and generate contextual answers.
+The application is cloud-deployed, containerized, and CI/CD enabled.
+________________________________________
+2️⃣ High-Level Architecture
+User
+ ↓
+Frontend (HTML / CSS)
+ ↓
+Backend API (Flask)
+ ↓
+AI Inference Layer
+ ├── Image Processing (OpenCV)
+ ├── Celebrity Detection (Vision Transformer)
+ └── Q/A Engine (Groq LLM)
+ ↓
+Response to User
+________________________________________
+3️⃣ Major Components
+A. Frontend
+•	Image upload
+•	Question input
+•	Displays AI response
+B. Backend (Flask API)
+•	Request handling
+•	Routing
+•	Orchestration of ML pipeline
+C. AI Layer
+•	Image preprocessing
+•	Celebrity detection
+•	Question answering
+D. Deployment & Infrastructure
+•	Docker for containerization
+•	CircleCI for CI/CD
+•	GCP Artifact Registry for image storage
+•	GKE for application deployment
+________________________________________
+4️⃣ High-Level Deployment Flow
+Developer → GitHub → CircleCI → Docker
+        → GCP Artifact Registry → GKE → Users
+________________________________________
+5️⃣ HLD Key Design Decisions
+•	Stateless backend for scalability
+•	Microservice-ready architecture
+•	Managed Kubernetes (GKE) for reliability
+•	LLM offloaded to Groq for low latency
+________________________________________
+🔹 Low-Level Design (LLD)
+1️⃣ Backend API Design
+Endpoint
+POST /analyze
+Request Payload
+{
+  "image": "uploaded_image.jpg",
+  "question": "Who is this person?"
+}
+Response Payload
+{
+  "celebrity": "Name",
+  "answer": "AI generated response"
+}
+________________________________________
+2️⃣ Flask Application Structure
+app/
+├── app.py              # Flask entry point
+├── routes.py           # API routes
+├── image_handler.py    # Image upload & validation
+├── preprocessing.py    # OpenCV image processing
+├── detector.py         # Vision Transformer logic
+├── qa_engine.py        # Groq LLM integration
+├── utils.py            # Helper functions
+└── requirements.txt
+________________________________________
+3️⃣ Image Processing Flow (LLD)
+1.	Receive image from request
+2.	Validate file type & size
+3.	Resize image
+4.	Normalize pixel values
+5.	Convert to model-ready format
+Library: OpenCV (Python)
+________________________________________
+4️⃣ Celebrity Detection Flow (LLD)
+1.	Input processed image
+2.	Generate image embeddings
+3.	Compare embeddings with known celebrity representations
+4.	Select highest similarity match
+5.	Return celebrity identity
+Model: Vision Transformer
+________________________________________
+5️⃣ Q/A Engine Flow (LLD)
+1.	Combine:
+o	Detected celebrity name
+o	User question
+2.	Create structured prompt
+3.	Send prompt to Groq LLM
+4.	Receive AI-generated answer
+5.	Return response to backend
+________________________________________
+6️⃣ Docker & Kubernetes (LLD)
+Docker
+•	Flask + ML dependencies packaged in one image
+•	Single Dockerfile
+Kubernetes
+•	Deployment:
+o	Multiple replicas
+•	Service:
+o	Exposes Flask API
+•	Optional:
+o	Auto-scaling
+________________________________________
+7️⃣ CI/CD Pipeline (LLD)
+1. Code push to GitHub
+2. CircleCI triggers pipeline
+3. Docker image build
+4. Push image to GCP Artifact Registry
+5. Deploy updated image to GKE
+________________________________________
+8️⃣ Error Handling (LLD)
+•	Invalid image format → 400 error
+•	No celebrity detected → fallback response
+•	LLM timeout → retry / graceful error
+________________________________________
+9️⃣ Performance & Scalability (LLD)
+•	Stateless Flask APIs
+•	Horizontal scaling via Kubernetes
+•	Separate inference logic
+•	Ready for async processing in future
+________________________________________
+🔹 1-Line HLD + LLD I Summary
+“At a high level, this is a cloud-native AI system where a Flask API orchestrates image preprocessing, celebrity detection using Vision Transformers, and multimodal Q&A using Groq LLM, deployed on GKE with Docker and CI/CD via CircleCI.”
