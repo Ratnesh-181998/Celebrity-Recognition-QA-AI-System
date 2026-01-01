@@ -44,7 +44,8 @@ Built with **Streamlit** for the frontend and a **Flask** microservices backend,
 
 ## 🏗️ System Architecture
 
-<img width="940" height="482" alt="image" src="https://github.com/user-attachments/assets/dc22016b-21be-4a8c-a433-a2bfdacf8d7c" />
+<img width="997" height="524" alt="image" src="https://github.com/user-attachments/assets/124df920-9792-4f49-a011-d3f91f030702" />
+
 
 The project follows a decoupled Microservices architecture to ensure scalability and maintainability.
 
