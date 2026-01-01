@@ -165,6 +165,35 @@ streamlit run "Celebrity Detector_QA_streamlit_app.py"
 
 ---
 
+## 🚀 DevOps & CI/CD Pipeline (GCP & CircleCI)
+
+This project uses a robust CI/CD pipeline integrated with **CircleCI** and **Google Kubernetes Engine (GKE)** for automated deployment.
+
+### 🔄 Pipeline Workflow
+1.  **Commit**: Code is pushed to GitHub.
+2.  **CircleCI Trigger**: The pipeline automatically builds the Docker image.
+3.  **Container Registry**: The image is pushed to **Google Artifact Registry**.
+4.  **Deployment**: The updated image is deployed to the **GKE Cluster**.
+
+### 🐳 Docker Configuration
+The application is containerized using a lightweight **Python 3.10-slim** image with optimized layers:
+
+*   **Base Image**: `python:3.10-slim`
+*   **System Deps**: `libgl1`, `libglib2.0-0` (for OpenCV)
+*   **Optimization**: `PYTHONDONTWRITEBYTECODE=1` for performance.
+*   **Port**: Exposes `5000` for the Flask backend.
+
+### ☁️ GCP Deployment Requirements
+For a full enterprise-grade deployment on Google Cloud, ensure:
+1.  **APIs Enabled**: Kubernetes Engine, Container Registry, Cloud Build.
+2.  **Service Account**: With `Storage Admin` and `Artifact Registry Writer` roles.
+3.  **Secrets Management**: `GROQ_API_KEY` injected via Kubernetes Secrets.
+
+> *For detailed step-by-step documentation on setting up the GCP environment and CircleCI pipeline, check the `FULL_DOCUMENTATION.md` file in this repository.*
+
+
+---
+
 ## 📄 License
 
 Distributed under the **MIT License**. See `LICENSE` file for more information.
