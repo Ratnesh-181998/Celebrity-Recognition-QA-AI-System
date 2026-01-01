@@ -26,6 +26,10 @@ Built with a **Microservices Architecture**, focusing on scalability and low-lat
 📂 **Explore the Code & Architecture:**
 [https://github.com/Ratnesh-181998/Celebrity-Recognition-QA-AI-System](https://github.com/Ratnesh-181998/Celebrity-Recognition-QA-AI-System)
 
+**👇 Watch the Project Demo Below 👇**
+
+![Project Demo Walkthrough](demo_walkthrough.gif)
+
 ---
 
 I’d love to hear your thoughts on the intersection of Vision and LLMs!
@@ -33,6 +37,4 @@ I’d love to hear your thoughts on the intersection of Vision and LLMs!
 #ArtificialIntelligence #ComputerVision #GenerativeAI #LLM #MachineLearning #DevOps #Kubernetes #Docker #Streamlit #Python #OpenCV #Groq #TechInnovation #DataScience
 
 ---
-**👇 Watch the Project Demo Below 👇**
 
-![Project Demo Walkthrough](demo_walkthrough.gif)
