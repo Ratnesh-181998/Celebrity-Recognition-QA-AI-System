@@ -51,6 +51,7 @@ The project follows a decoupled Microservices architecture to ensure scalability
 
 <img width="1327" height="215" alt="image" src="https://github.com/user-attachments/assets/25af5400-e90b-425c-9e23-ca0ed8039d6d" />
 
+<img width="1380" height="229" alt="image" src="https://github.com/user-attachments/assets/79432472-55b4-41c7-82c6-ad7021dacbc3" />
 
 ```
 
