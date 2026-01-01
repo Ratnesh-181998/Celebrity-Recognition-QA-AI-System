@@ -168,7 +168,7 @@ Distributed under the **MIT License**. See `LICENSE` file for more information.
 
 ## 📞 Contact & Links
 
-**Ratnesh Kumar Singh**
+**Ratnesh Kumar Singh|Data Scientist (AI/ML Engineer 4+ Yrs Exp)**
 
 *   💼 **LinkedIn**: [ratneshkumar1998](https://www.linkedin.com/in/ratneshkumar1998/)
 *   🐙 **GitHub**: [Ratnesh-181998](https://github.com/Ratnesh-181998)
