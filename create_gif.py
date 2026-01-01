@@ -3,7 +3,7 @@ import os
 import glob
 
 # Base directory for artifacts
-artifact_dir = r"C:/Users/rattu/.gemini/antigravity/brain/bd923eda-7026-4a91-8a1b-b4a573c858eb/"
+artifact_dir = r"C:/Users/rattu/"
 
 # Specific files we captured (in order)
 filenames = [
