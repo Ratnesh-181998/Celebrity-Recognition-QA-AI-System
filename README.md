@@ -1,4 +1,4 @@
-<img width="1899" height="845" alt="image" src="https://github.com/user-attachments/assets/36645a9c-d13d-4e7a-b8f4-461b76160d80" /># 🧠 Celebrity Recognition & Q/A AI System
+# 🧠 Celebrity Recognition & Q/A AI System
 ### *Multimodal Biometric Intelligence & Contextual AI Assistant*
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://appudtzei3tyyttd6xjhwur.streamlit.app/)
