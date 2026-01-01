@@ -140,6 +140,18 @@ GROQ_API_KEY=your_groq_api_key_here
 ```bash
 streamlit run "Celebrity Detector_QA_streamlit_app.py"
 ```
+---
+
+## ☁️ Deployment
+
+### Streamlit Cloud
+1.  Push this repo to GitHub.
+2.  Login to [Streamlit Cloud](https://streamlit.io/cloud).
+3.  Connect your GitHub account and select this repository.
+4.  Set the `GROQ_API_KEY` in the **Advanced Settings > Secrets** section.
+5.  Click **Deploy**.
+
+*Note: The `requirements.txt` is optimized for cloud environments, including `opencv-python-headless`.*
 
 ---
 
@@ -169,18 +181,6 @@ For a full enterprise-grade deployment on Google Cloud, ensure:
 
 > *For detailed step-by-step documentation on setting up the GCP environment and CircleCI pipeline, check the `FULL_DOCUMENTATION.md` file in this repository.*
 
----
-
-## ☁️ Deployment
-
-### Streamlit Cloud
-1.  Push this repo to GitHub.
-2.  Login to [Streamlit Cloud](https://streamlit.io/cloud).
-3.  Connect your GitHub account and select this repository.
-4.  Set the `GROQ_API_KEY` in the **Advanced Settings > Secrets** section.
-5.  Click **Deploy**.
-
-*Note: The `requirements.txt` is optimized for cloud environments, including `opencv-python-headless`.*
 
 ---
 
