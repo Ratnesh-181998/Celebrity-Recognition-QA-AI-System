@@ -49,16 +49,9 @@ Built with **Streamlit** for the frontend and a **Flask** microservices backend,
 
 The project follows a decoupled Microservices architecture to ensure scalability and maintainability.
 
-```mermaid
-graph LR
-    User(User / Browser) -->|Uploads Image| UI[Streamlit Frontend]
-    UI -->|API Request| API[Flask Backend API]
-    API -->|Process Frame| CV[OpenCV Processor]
-    CV -->|Extract Tensor| ViT[Vision Transformer]
-    ViT -->|Identify Identity| VectorDB[(Vector Embeddings)]
-    VectorDB -->|Contextual Data| LLM[Groq LLaMA-4 Vision]
-    LLM -->|Natural Language Response| UI
-    UI -->|Display Results| User
+<img width="1327" height="215" alt="image" src="https://github.com/user-attachments/assets/25af5400-e90b-425c-9e23-ca0ed8039d6d" />
+
+
 ```
 
 ### 🧠 Intelligence Layer
