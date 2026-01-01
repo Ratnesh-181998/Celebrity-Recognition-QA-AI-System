@@ -53,7 +53,7 @@ The project follows a decoupled Microservices architecture to ensure scalability
 
 <img width="1380" height="229" alt="image" src="https://github.com/user-attachments/assets/79432472-55b4-41c7-82c6-ad7021dacbc3" />
 
-```
+---
 
 ### 🧠 Intelligence Layer
 *   **Vision Transformer (ViT)**: Converts facial features into 128-dimensional dense vector embeddings for precise ID matching.
