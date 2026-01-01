@@ -101,7 +101,7 @@ Breakdown of the modern stack used, categorized by layer:
 | **Computer Vision** | OpenCV (Haar Cascades), Pillow |
 | **AI / ML** | Vision Transformers (ViT), Groq LLaMA-4 Vision |
 | **Database** | Vector Store (In-memory/FAISS compatible logic) |
-| **DevOps** | Docker, Kubernetes (GKE), Git LFS, CircleCI |
+| **DevOps/LLMOps/AIOps** | Docker, Kubernetes (GKE), Git LFS, CircleCI |
 | **Cloud** | Streamlit Cloud, Google Cloud Platform (GCP) |
 
 ---
