@@ -165,7 +165,7 @@ streamlit run "Celebrity Detector_QA_streamlit_app.py"
 
 ---
 
-## 🚀 DevOps & CI/CD Pipeline (GCP & CircleCI)
+## 🚀 DevOps/LLMops & CI/CD Pipeline (GCP & CircleCI)
 
 This project uses a robust CI/CD pipeline integrated with **CircleCI** and **Google Kubernetes Engine (GKE)** for automated deployment.
 
