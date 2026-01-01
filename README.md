@@ -1,4 +1,4 @@
-# 🧠 Celebrity Recognition & Q/A AI System
+<img width="1899" height="845" alt="image" src="https://github.com/user-attachments/assets/36645a9c-d13d-4e7a-b8f4-461b76160d80" /># 🧠 Celebrity Recognition & Q/A AI System
 ### *Multimodal Biometric Intelligence & Contextual AI Assistant*
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://appudtzei3tyyttd6xjhwur.streamlit.app/)
@@ -72,23 +72,44 @@ The application is organized into comprehensive tabs for ease of use and transpa
 *   **Chat with "RatneshAI"**: A built-in chatbot that holds context about the detected celebrity. Ask *"What is his best movie?"* and get an answer specific to Robert Downey Jr.
 *   **Refresh Utility**: Instantly reset sessions to test new scenarios.
 
+<img width="1899" height="845" alt="image" src="https://github.com/user-attachments/assets/ca4a8cd4-e0de-49a0-92e9-7673a8db00da" />
+<img width="1832" height="824" alt="image" src="https://github.com/user-attachments/assets/335f158c-7f6a-433a-b677-a1aa5c88e882" />
+<img width="1869" height="802" alt="image" src="https://github.com/user-attachments/assets/c43c3afb-8464-491d-98c2-4aa60717065c" />
+<img width="1898" height="868" alt="image" src="https://github.com/user-attachments/assets/8ab05900-1e8e-4e98-8547-15657cde0e6e" />
+<img width="1883" height="844" alt="image" src="https://github.com/user-attachments/assets/2fd054cd-2788-4750-bc6c-ff1d2b4c0015" />
+
 ### 2. 📝 About Project
 *   Contains the **Project Explanation**, detailing the problem statement, solution approach, and high-level design doc (HLD).
 *   Ideal for stakeholders to understand the business value.
+<img width="1866" height="857" alt="image" src="https://github.com/user-attachments/assets/4f30418e-e536-44f5-9c80-d486021debc8" />
+<img width="1881" height="844" alt="image" src="https://github.com/user-attachments/assets/c1c6349b-c79a-4d77-a96c-dcf8505eb39f" />
+<img width="1280" height="714" alt="image" src="https://github.com/user-attachments/assets/51aa865a-6521-4053-b93b-0ac981754e37" />
+<img width="1657" height="673" alt="image" src="https://github.com/user-attachments/assets/1d0f8537-853f-4943-b94e-8d4ecaed24a8" />
+
 
 ### 3. 🛠️ Tech Stack
 Breakdown of the modern stack used, categorized by layer:
 *   **🧠 Intelligence**: Groq API, Vision Transformers, PyTorch.
 *   **💻 Application**: Streamlit (Frontend), Flask (Backend), RESTful APIs.
-*   **☁️ DevOps**: Google Kubernetes Engine (GKE), Docker, CircleCI, Artifact Registry.
+*   **☁️ DevOps/LLMOps**: Google Kubernetes Engine (GKE), Docker, CircleCI, Artifact Registry.
+*   
+<img width="1865" height="830" alt="image" src="https://github.com/user-attachments/assets/5141b4b0-c25a-405c-836e-6a654133def6" />
 
 ### 4. 📐 Architecture
 *   Visualizes the **High-Level Design (HLD)** and data flow using Graphviz.
 *   Explains the request lifecycle from browser to AI inference.
+  
+<img width="1629" height="800" alt="image" src="https://github.com/user-attachments/assets/dd5358e7-e43e-4c4d-b570-6c0de2849156" />
+<img width="1224" height="538" alt="image" src="https://github.com/user-attachments/assets/6e2e3c17-543d-4bb4-8ccf-a20439516edc" />
+<img width="1671" height="753" alt="image" src="https://github.com/user-attachments/assets/79130010-71fe-44b0-aa68-ff4d1e1e91ab" />
+<img width="1668" height="831" alt="image" src="https://github.com/user-attachments/assets/bd2c66ae-b842-4162-b2ff-dbefe92cf698" />
+<img width="1658" height="836" alt="image" src="https://github.com/user-attachments/assets/69913572-3b09-4cff-9ea3-a009db2a44e6" />
 
 ### 5. 📡 System Logs
 *   Real-time **stdout/stderr** streaming.
 *   Monitors connectivity, API status, and error tracing for debugging.
+<img width="1667" height="819" alt="image" src="https://github.com/user-attachments/assets/5a9c16d8-e1cc-4c28-aeba-5d314ac958de" />
+<img width="1670" height="819" alt="image" src="https://github.com/user-attachments/assets/d498a485-d75e-4225-99cd-2e81cfa4da02" />
 
 ---
 
