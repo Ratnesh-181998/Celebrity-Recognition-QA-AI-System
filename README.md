@@ -10,11 +10,21 @@
 
 ---
 
+<img width="940" height="486" alt="image" src="https://github.com/user-attachments/assets/e3a65503-355d-488c-800b-6a25ac582e2a" />
+
+---
 ## 🚀 Project Overview
 
 The **Celebrity Recognition & QA AI System** is a state-of-the-art multimodal application that combines computer vision with Large Language Models (LLMs) to detect identities and answer questions about them in real-time.
 
 Built with **Streamlit** for the frontend and a **Flask** microservices backend, this system leverages **OpenCV** for facial detection, **Vision Transformers (ViT)** for biometric encodings, and **Groq's LLaMA-4 Vision** model to provide rich, context-aware information about recognized personalities.
+
+---
+## 🌐🎬 Live Demo
+🚀 **Try it now:**
+- **Streamlit Profile** - https://share.streamlit.io/user/ratnesh-181998
+- **Project Demo** - https://celebrity-recognition-q-ai-system-nlan8szprudhrz9ctaappgxa.streamlit.app/
+---
 
 **Key Features:**
 *   **Real-time Face Detection**: High-accuracy detection using OpenCV.
@@ -33,6 +43,8 @@ Built with **Streamlit** for the frontend and a **Flask** microservices backend,
 ---
 
 ## 🏗️ System Architecture
+
+<img width="940" height="482" alt="image" src="https://github.com/user-attachments/assets/dc22016b-21be-4a8c-a433-a2bfdacf8d7c" />
 
 The project follows a decoupled Microservices architecture to ensure scalability and maintainability.
 
@@ -168,13 +180,13 @@ Distributed under the **MIT License**. See `LICENSE` file for more information.
 
 ## 📞 Contact & Links
 
-**Ratnesh Kumar Singh|Data Scientist (AI/ML Engineer 4+ Yrs Exp)**
+**Ratnesh Kumar Singh | Data Scientist (AI/ML Engineer 4+ Yrs Exp)**
 
 *   💼 **LinkedIn**: [ratneshkumar1998](https://www.linkedin.com/in/ratneshkumar1998/)
 *   🐙 **GitHub**: [Ratnesh-181998](https://github.com/Ratnesh-181998)
 
 ### 🔗 Quick Links
-*   🌐 **Live Demo App**: [Launch Streamlit App](https://appudtzei3tyyttd6xjhwur.streamlit.app/)
+*   🌐 **Live Demo App**: [Launch Streamlit App](https://celebrity-recognition-q-ai-system-nlan8szprudhrz9ctaappgxa.streamlit.app/)
 *   📖 **Project Wiki**: [Documentation](https://github.com/Ratnesh-181998/Celebrity-Recognition-QA-AI-System/wiki)
 *   🐛 **Report a Bug**: [Issue Tracker](https://github.com/Ratnesh-181998/Celebrity-Recognition-QA-AI-System/issues)
 *   💬 **Join Discussion**: [Community Chat](https://github.com/Ratnesh-181998/Celebrity-Recognition-QA-AI-System/discussions)
