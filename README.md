@@ -238,3 +238,15 @@ Distributed under the **MIT License**. See `LICENSE` file for more information.
 
 ---
 *Built with ❤️ by Ratnesh using Generative AI & Computer Vision.*
+
+---
+*Built with passion for the AI Community. 🚀*
+
+</div>
+
+---
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%">
+  
+</div>
